@@ -54,7 +54,7 @@ Person 1 should make the change in code, and person 2 should manage the pull req
 
 ```{r person one codes}
 add5 <- function(x){
-  return()
+  return(x + 5)
 }
 
 add5(10) # Should return the value 10
